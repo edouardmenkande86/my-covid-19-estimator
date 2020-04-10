@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="94aaa1e2-5d7d-4eef-80c8-36a39087f028" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/my-covid-19-estimator.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/estimator.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/estimator.py" afterDir="false" />
-    </list>
+    <list default="true" id="94aaa1e2-5d7d-4eef-80c8-36a39087f028" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +13,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/estimator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
+            <state relative-caret-position="493">
+              <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
             </state>
           </provider>
         </entry>
@@ -95,16 +89,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1586527392468</updated>
-      <workItem from="1586527418802" duration="13051000" />
+      <workItem from="1586527418802" duration="13737000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13051000" />
+    <option name="totallyTimeSpent" value="13737000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-33" y="64" width="1346" height="688" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2496112" />
@@ -135,8 +128,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/estimator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
+        <state relative-caret-position="493">
+          <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
         </state>
       </provider>
     </entry>
