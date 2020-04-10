@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="94aaa1e2-5d7d-4eef-80c8-36a39087f028" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/estimator.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/estimator.py" afterDir="false" />
-    </list>
+    <list default="true" id="94aaa1e2-5d7d-4eef-80c8-36a39087f028" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,8 +46,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-94" />
-    <option name="y" value="157" />
+    <option name="x" value="-62" />
+    <option name="y" value="76" />
     <option name="width" value="1346" />
     <option name="height" value="688" />
   </component>
@@ -106,15 +103,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1586527392468</updated>
-      <workItem from="1586527418802" duration="15605000" />
+      <workItem from="1586527418802" duration="16101000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15605000" />
+    <option name="totallyTimeSpent" value="16101000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-94" y="157" width="1346" height="688" extended-state="0" />
+    <frame x="-62" y="76" width="1346" height="688" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
