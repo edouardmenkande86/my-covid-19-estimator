@@ -30,11 +30,11 @@ def covid19ImpactEstimator(data):
         estimate = {
             'impact': {
                 'currentlyInfected': data['reportedCases'] * 10,
-                'infectionsByRequestedTime': estimate['impact']['currentlyInfected'] * 18
+                'infectionsByRequestedTime': estimate.get('impact').get('currentlyInfected') * 18
             },
             'severeImpact': {
                 'currentlyInfected': data['reportedCases'] * 50,
-                'infectionsByRequestedTime': estimate['severeImpact']['currentlyInfected'] * 18
+                'infectionsByRequestedTime': estimate.get('severeImpact').get('currentlyInfected') * 18
             }
 
         }
@@ -42,11 +42,11 @@ def covid19ImpactEstimator(data):
         estimate = {
             'impact': {
                 'currentlyInfected': data['reportedCases'] * 10,
-                'infectionsByResquestedTime': estimate['impact']['currentlyInfected'] * 137
+                'infectionsByResquestedTime': estimate.get('impact').get('currentlyInfected') * 137
             },
             'severeImpact': {
                 'currentlyInfected': data['reportedCases'] * 50,
-                'infectionsByResquetedTime': estimate['severeImpact']['currentlyInfected'] * 137
+                'infectionsByResquetedTime': estimate.get('severeImpact').get('currentlyInfected') * 137
             }
         }
 
@@ -54,11 +54,11 @@ def covid19ImpactEstimator(data):
         estimate = {
             'impact': {
                 'currentlyInfected': data['reportedCases'] * 10,
-                'infectionsByRequestedTime': estimate['impact']['currentlyInfected'] * 548
+                'infectionsByRequestedTime': estimate.get('impact').get('currentlyInfected') * 548
             },
             'severeImpact': {
                 'currentlyInfected': data['reportedCases'] * 50,
-                'infectionsByResquetedTime': estimate['severeImpact']['currentlyInfected'] * 548
+                'infectionsByResquetedTime': estimate.get('severeImpact').get('currentlyInfected') * 548
             }
         }
 
