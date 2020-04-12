@@ -1,6 +1,12 @@
 import math
 
 def estimator(data):
+
+    return data
+
+# challenge 1
+
+def covid19ImpactEstimator(data):
     data = {
         'region': {
             'name': "Africa",
@@ -8,24 +14,18 @@ def estimator(data):
             'avgDailyIncomeInUSD': 5,
             'avgDailyIncomePopulation': 0.71
         },
-        'periodeType':'days',
+        'periodeType': 'days',
         'timeToElapse': 58,
         'reportedCases': 674,
         'population': 66622705,
         'totalHospitalBeds': 1380614
     }
-   
-    return data
-
-# challenge 1
-
-def covid19ImpactEstimator(data):
 
     estimate = {
-        'impact': {
+        "impact": {
             'currentlyInfected': data.get('reportedCases') * 10
         },
-        'severeImpact': {
+        "severeImpact": {
             'currentlyInfected': data.get('reportedCases') * 50
         }
     }
@@ -33,7 +33,7 @@ def covid19ImpactEstimator(data):
         periodTime = data.get('timeToElapse')
 
         estimate = {
-            'impact': {
+            "impact": {
                 'currentlyInfected': data.get('reportedCases') * 10,
                 'infectionsByRequestedTime': estimate.get('impact').get('currentlyInfected') * 18,
                 'severeCasesByRequestedTime': estimate.get('impact').get('infectionByRequestedTime') * 0.15,
@@ -46,7 +46,7 @@ def covid19ImpactEstimator(data):
                                                * data.get('region').get)/periodTime)
 
             },
-            'severeImpact': {
+            "severeImpact": {
                 'currentlyInfected': data.get('reportedCases') * 50,
                 'infectionsByRequestedTime': estimate.get('severeImpact').get('currentlyInfected') * 18,
                 'severeCasesByRequestedTime': estimate.get('severeImpact').get('infectionByRequestedTime') * 0.15,
@@ -64,7 +64,7 @@ def covid19ImpactEstimator(data):
         periodTime = data.get('timeToElapse')*7
 
         estimate = {
-            'impact': {
+            "impact": {
                 'currentlyInfected': data.get('reportedCases') * 10,
                 'infectionsByResquestedTime': estimate.get('impact').get('currentlyInfected') * 137,
                 'severeCasesByRequestedTime': estimate.get('impact').get('infectionByRequestedTime') * 0.15,
@@ -77,7 +77,7 @@ def covid19ImpactEstimator(data):
                                                * data.get('region').get) / periodTime)
 
             },
-            'severeImpact': {
+            "severeImpact": {
                 'currentlyInfected': data.get('reportedCases') * 50,
                 'infectionsByResquetedTime': estimate.get('severeImpact').get('currentlyInfected') * 137,
                 'severeCasesByRequestedTime': estimate.get('severeImpact').get('infectionByRequestedTime') * 0.15,
@@ -95,7 +95,7 @@ def covid19ImpactEstimator(data):
         periodTime = data.get('timeToElapse') * 30
 
         estimate = {
-            'impact': {
+            "impact": {
                 'currentlyInfected': data.get('reportedCases') * 10,
                 'infectionsByRequestedTime': estimate.get('impact').get('currentlyInfected') * 548,
                 'severeCasesByRequestedTime': estimate.get('impact').get('infectionByRequestedTime') * 0.15,
@@ -107,7 +107,7 @@ def covid19ImpactEstimator(data):
                                                * data.get('region').get('avgDailyIncomePopulation')
                                                * data.get('region').get) / periodTime)
             },
-            'severeImpact': {
+            "severeImpact": {
                 'currentlyInfected': data['reportedCases'] * 50,
                 'infectionsByResquetedTime': estimate.get('severeImpact').get('currentlyInfected') * 548,
                 'severeCasesByRequestedTime': estimate.get('severeImpact').get('infectionByRequestedTime') * 0.15,
