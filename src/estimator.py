@@ -1,6 +1,12 @@
 import math
 
 def estimator(data):
+
+    return data
+
+# challenge 1
+
+def covid19ImpactEstimator(data):
     data = {
         'region': {
             'name': "Africa",
@@ -8,18 +14,12 @@ def estimator(data):
             'avgDailyIncomeInUSD': 5,
             'avgDailyIncomePopulation': 0.71
         },
-        'periodeType':'days',
+        'periodeType': 'days',
         'timeToElapse': 58,
         'reportedCases': 674,
         'population': 66622705,
         'totalHospitalBeds': 1380614
     }
-   
-    return data
-
-# challenge 1
-
-def covid19ImpactEstimator(data):
 
     estimate = {
         "impact": {
