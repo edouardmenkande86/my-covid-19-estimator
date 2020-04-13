@@ -2,6 +2,7 @@ import math
 
 def estimator(data):
 
+
     return data
 
 # challenge 1
@@ -21,13 +22,13 @@ def covid19ImpactEstimator(data):
         'totalHospitalBeds': 1380614
     }
 
+    impact = {},
+    severeImpact = {}
+
     estimate = {
-        "impact": {
-            'currentlyInfected': data.get('reportedCases') * 10
-        },
-        "severeImpact": {
-            'currentlyInfected': data.get('reportedCases') * 50
-        }
+        "impact.currentlyInfected": data.get('reportedCases')*10,
+        "severeImpact.currentlyInfected": data.get('reportedCases')*50
+
     }
     if data['periodeType'] == 'days':
         periodTime = data.get('timeToElapse')
